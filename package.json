@@ -1,0 +1,22 @@
+{
+  "name": "aircnc-api",
+  "version": "1.0.0",
+  "description": "AirCnC api",
+  "main": "./src",
+  "repository": "https://github.com/fausantosdev/aircnc-api.git",
+  "author": "fausantos <fausantosdev@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src",
+    "dev": "nodemon ./src"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
